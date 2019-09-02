@@ -1,4 +1,4 @@
 # User.Api
 
-Criar banco Users  
-Sincronizar projeto Users.Sql para criação da tabela
+Criar banco UsersDb no SQL Server  
+Sincronizar projeto User.Sql para criação da tabela
