@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>User.Api</name>
+    </assembly>
+    <members>
+        <member name="M:User.Api.Controllers.UsersController.#ctor(User.Library.IUsersServices)">
+            Default controller.
+        </member>
+        <member name="M:User.Api.Controllers.UsersController.GetAll">
+            <summary>
+            Seleciona todos os usuários
+            </summary>
+            <returns>Lista contendo todos os usuários.</returns>
+        </member>
+        <member name="M:User.Api.Controllers.UsersController.Register(User.Library.User)">
+            <summary>
+            Cadastra um usuário
+            </summary>
+            <param name="model">Dados para cadastro do usuário</param>
+            <returns>Resultado da operação</returns>
+        </member>
+        <member name="M:User.Api.Controllers.UsersController.GetById(System.Int32)">
+            <summary>
+            Seleciona um usuário pelo id
+            </summary>
+            <param name="id">Id do usuário</param>
+            <returns>Objeto Usuário</returns>
+        </member>
+        <member name="M:User.Api.Controllers.UsersController.Delete(System.Int32)">
+            <summary>
+            Exclui usuário pelo id
+            </summary>
+            <param name="id">Id do usuário</param>
+            <returns>Objeto usuário</returns>
+        </member>
+        <member name="M:User.Api.Controllers.UsersController.Update(User.Library.User)">
+            <summary>
+            Atualiza um usuário
+            </summary>
+            <param name="model">Dados para atualizar do usuário</param>
+            <returns>Resultado da operação</returns>
+        </member>
+    </members>
+</doc>
